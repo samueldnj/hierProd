@@ -1,0 +1,6 @@
+# Local project files
+.Rproj.user
+.Rapp.history
+
+# Hidden R temporary files
+*.DS_Store

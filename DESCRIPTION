@@ -1,0 +1,36 @@
+Package: hierProd
+Title: Hierarchical multi-stock surplus production model
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Samuel", "Johnson", email = "samuelj@sfu.ca", role = c("aut", "cre")),
+    person("Sean", "Cox", email = "spcox@sfu.ca", role = c("aut"))
+    )
+Description: hierProd is a hierarchical multi-stock surplus production 
+    fisheries stock assessment model. The hierProd package is set up as
+    a combination of a simulation model in R, and an assessment model 
+    in TMB. The assessment model was tested as part of the CJFAS
+    publication "Evaluating the role of data quality when sharing
+    information in hierarchical multi-stock assessments, with an
+    application to British Columbia dover sole" by S. D. N. Johnson
+    and Sean P. Cox. There are functions included for fitting the 
+    hierarchical model to real data as we did for dover sole.
+Depends: R (>= 3.4.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    parallel,
+    RColorBrewer,
+    scales,
+    TMB,
+    Rcpp,
+    RcppEigen
+Suggests:
+    beepr,
+    raster
+RoxygenNote: 6.1.1
+LinkingTo:
+    TMB, 
+    Rcpp,
+    RcppEigen
