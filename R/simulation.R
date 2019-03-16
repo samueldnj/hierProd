@@ -9,6 +9,7 @@
 # 
 # --------------------------------------------------------------------------
 
+#' @export
 #' Run the simulation-estimation procedure
 #' 
 #' \code{runSimEst} parses a control file and fits hierProd

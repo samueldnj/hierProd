@@ -4,3 +4,7 @@
 
 # Hidden R temporary files
 *.DS_Store
+
+# Compiled files
+./src/*.o
+./src/*.so
