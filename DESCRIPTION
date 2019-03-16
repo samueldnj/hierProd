@@ -25,10 +25,12 @@ Imports:
     scales,
     TMB,
     Rcpp,
-    RcppEigen
+    RcppEigen,
+    magrittr
 Suggests:
     beepr,
-    raster
+    raster,
+    testthat
 RoxygenNote: 6.1.1
 LinkingTo:
     TMB, 
