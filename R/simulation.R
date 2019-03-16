@@ -9,7 +9,6 @@
 # 
 # --------------------------------------------------------------------------
 
-#' @export
 #' Run the simulation-estimation procedure
 #' 
 #' \code{runSimEst} parses a control file and fits hierProd
@@ -39,6 +38,7 @@
 #' \dontrun{
 #'  runSimEst(ctlFile = NULL)
 #' }
+#' @export
 runSimEst <- function ( ctlFile = "simCtlFile.txt", folder=NULL, quiet=TRUE )
 { 
   # read in control file
